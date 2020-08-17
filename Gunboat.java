@@ -13,8 +13,8 @@ public class Main
         System.out.println("Enter the initial velocity of the projectile.\n");
         double v = reader.nextDouble();
 		
-		double a = -4.9 * (d/v) * (d/v);
-		double b = d;
+	double a = -4.9 * (d/v) * (d/v);
+	double b = d;
         double c = a + h;	
         
         double tanAngle = (-b + Math.sqrt(b * b - 4 * a * c)) / (2 * a);
